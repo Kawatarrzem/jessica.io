@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    font-family:'inter' ;
+    color: aliceblue;
+}
+.container{
+width: 400px;
+margin:0 auto ;
+padding-top: 40px;
+
+}
+.card{
+    background-color:hsl(0, 0%, 12%);
+    border-radius:12px ;
+    text-align: center;
+    margin: 12px;
+    
+}
+
+ 
+.card img{
+    border-radius: 145px;
+    width: 30%;
+    padding:10px ;
+}
+
+h2{
+    padding-bottom: 12px;
+    font-weight: 500;
+    padding-top: 24px;
+    
+}
+
+.locale{
+    padding-left: 12px;
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 12px;
+    color: hsl(75, 94%, 57%);
+
+}
+
+.description{
+    padding-bottom: 5px ;
+    font-weight: 400;
+    font-size: 14px;
+    color:hsl(0, 0%, 100%) ;
+
+
+}
+.grid{
+    display: grid;
+    align-content: space-between;
+    justify-content: space-around;
+}
+.button{
+    border-radius: 12px ;
+    background-color: hsl(0, 0%, 20%);
+    font-size:12px ;
+    font-family: 'inter';
+    font-weight:600 ;
+    cursor: pointer;
+    color: aliceblue;
+    transition:background-color 0.2s ease-in-out;
+    border: 0;
+    height: 45px;
+    width: 300px;
+}
+
+.button:hover{
+    background-color:rgb(163, 163, 163);
+}
+.attributions{
+    font-size: 11px;
+    text-align: center;
+    transform: translate(-5%,0);
+}
+.attributions a {
+    color: hsl(228, 45%, 44%) ;
+    text-decoration: underline;
+}
